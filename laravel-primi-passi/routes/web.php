@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homepage');
 });
+
+Route::get('/about.blade.php', function () {
+    return view('about');
+});
+
+Route::get('/hello.blade.php', function () {
+    return view('hello');
+});

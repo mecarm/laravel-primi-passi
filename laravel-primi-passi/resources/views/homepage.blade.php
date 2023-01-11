@@ -13,5 +13,15 @@ $nome = 'Carmine';
 <body>
     <h1>Helloworld</h1>
     <p>io sono {{ $nome }}</p>
+    <header>
+        <ul>
+            <li>
+                <a href="/about.blade.php">ABOUT</a>
+            </li>
+            <li>
+                <a href="/hello.blade.php">HI THERE</a>
+            </li>
+        </ul>
+    </header>
 </body>
 </html>

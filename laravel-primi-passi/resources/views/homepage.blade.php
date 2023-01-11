@@ -1,3 +1,7 @@
+<?php
+$nome = 'Carmine';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +12,6 @@
 </head>
 <body>
     <h1>Helloworld</h1>
+    <p>io sono {{ $nome }}</p>
 </body>
 </html>
